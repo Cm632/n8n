@@ -3,8 +3,7 @@ services:
     name: n8n
     env: docker
     plan: free
-    dockerfile:
-      image: n8nio/n8n
+    image: "n8nio/n8n"
     autoDeploy: true
     envVars:
       - key: N8N_BASIC_AUTH_USER
@@ -17,3 +16,4 @@ services:
         value: https://n8n-i05g.onrender.com
       - key: TZ
         value: Europe/Berlin
+
