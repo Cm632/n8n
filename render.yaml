@@ -10,9 +10,9 @@ services:
       - key: N8N_BASIC_AUTH_PASSWORD
         value: admin
       - key: N8N_HOST
-        value: n8n.onrender.com
+        value: n8n-i05g.onrender.com
       - key: WEBHOOK_URL
-        value: https://n8n.onrender.com
+        value: https://n8n-i05g.onrender.com
       - key: TZ
         value: Europe/Berlin 
 
