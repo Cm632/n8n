@@ -3,7 +3,8 @@ services:
     name: n8n
     env: docker
     plan: free
-    dockerfilePath: ./docker/images/n8n/Dockerfile
+    image: n8nio/n8n
+    autoDeploy: true
     envVars:
       - key: N8N_BASIC_AUTH_USER
         value: admin
@@ -14,5 +15,5 @@ services:
       - key: WEBHOOK_URL
         value: https://n8n-i05g.onrender.com
       - key: TZ
-        value: Europe/Berlin 
+        value: Europe/Berlin
 
